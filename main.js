@@ -3,8 +3,9 @@ const EMPTY_HEART = '♡'
 const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
-const articleHearts = document.querySelectorAll(".like-glyph");
-
+const hearts = document.getElementsByClassName("like-glyph")
+const errorModal = document.querySelector("#modal")
+errorModal.classList.add("hidden")
 
 
 //------------------------------------------------------------------------------
