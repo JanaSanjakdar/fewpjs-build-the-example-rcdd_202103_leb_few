@@ -7,12 +7,25 @@ const hearts = document.getElementsByClassName("like-glyph")
 const errorModal = document.querySelector("#modal")
 document.addEventListener('click',(e)=>{
   mimicServerCall()
+.then (()=>{
+  if (heart.innerHTML == EMPTY_HEART){
+    heart.innerHTML = FULL_HEART
+    heart.className = "activated-heart"
+  }else{
+    heart.innerHTML = EMPTY_HEART
+    heart.className = "like-glyph"
+  }
+})
+
+  
   .catch (error => {
 erroeModel.classList.remove("hidden";)
 setTimeout(()=>{
   errorModel.classList.add("hidden")
 }, 3000)
   })
+
+  
 });
 
 
