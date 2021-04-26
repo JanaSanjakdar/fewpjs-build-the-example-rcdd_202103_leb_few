@@ -9,6 +9,9 @@ document.addEventListener('click',(e)=>{
   mimicServerCall()
   .catch (error => {
 erroeModel.classList.remove("hidden";)
+setTimeout(()=>{
+  errorModel.classList.add("hidden")
+}, 5000)
   })
 });
 
