@@ -8,10 +8,10 @@ const hearts = document.getElementsByClassName("like-glyph")
 document.addEventListener('click',(e)=>{
   mimicServerCall()
   .catch (error => {
-    
+
   })
 });
-    
+
 
 //------------------------------------------------------------------------------
 // Don't change the code below: this function mocks the server response
