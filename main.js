@@ -17,7 +17,7 @@ document.addEventListener('click',(e)=>{
   }
 })
 
-  
+
   .catch (error => {
 erroeModel.classList.remove("hidden";)
 setTimeout(()=>{
@@ -25,7 +25,7 @@ setTimeout(()=>{
 }, 3000)
   })
 
-  
+
 });
 
 
