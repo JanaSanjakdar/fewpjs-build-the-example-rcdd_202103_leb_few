@@ -11,7 +11,7 @@ document.addEventListener('click',(e)=>{
 erroeModel.classList.remove("hidden";)
 setTimeout(()=>{
   errorModel.classList.add("hidden")
-}, 5000)
+}, 3000)
   })
 });
 
