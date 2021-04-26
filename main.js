@@ -8,7 +8,7 @@ const hearts = document.getElementsByClassName("like-glyph")
 document.addEventListener('click',(e)=>{
   mimicServerCall()
   .catch (error => {
-
+erroeModel.classList.remove("hidden";)
   })
 });
 
